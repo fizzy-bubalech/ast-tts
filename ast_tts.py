@@ -334,13 +334,13 @@ file_path = "text_samples/human_text.txt"
 
 
 if __name__ == "__main__":
+    """
     tts_instance = TTS(api_key, custom_voice_id)
     tts_instance.generate_and_save_from_file(
         file_path_to_generate=file_path, text_name="human_text"
     )
-
-    # change
-    """from elevenlabs.api import Models
+    from elevenlabs.api import Models
     models = Models.from_api()
     print(models[0])
-    print(models)"""
+    print(models)
+    """
